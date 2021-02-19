@@ -31,7 +31,6 @@ i386_init(void)
 	mem_init();
 
 =======
->>>>>>> lab1
 	// Drop into the kernel monitor.
 	while (1)
 		monitor(NULL);
